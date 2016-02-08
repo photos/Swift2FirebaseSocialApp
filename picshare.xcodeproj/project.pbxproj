@@ -12,6 +12,22 @@
 		0B401C4B1C4C2BE900728131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B401C491C4C2BE900728131 /* Main.storyboard */; };
 		0B401C4D1C4C2BE900728131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B401C4C1C4C2BE900728131 /* Assets.xcassets */; };
 		0B401C501C4C2BE900728131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B401C4E1C4C2BE900728131 /* LaunchScreen.storyboard */; };
+		0B401C5F1C4D60E000728131 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B401C5B1C4D60E000728131 /* NotoSans-Bold.ttf */; };
+		0B401C601C4D60E000728131 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B401C5C1C4D60E000728131 /* NotoSans-BoldItalic.ttf */; };
+		0B401C611C4D60E000728131 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B401C5D1C4D60E000728131 /* NotoSans-Italic.ttf */; };
+		0B401C621C4D60E000728131 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B401C5E1C4D60E000728131 /* NotoSans-Regular.ttf */; };
+		0B401C641C4D642700728131 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B401C631C4D642700728131 /* MaterialView.swift */; };
+		0B401C671C4D649400728131 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B401C661C4D649400728131 /* Constants.swift */; };
+		0B401C691C4D6A3900728131 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B401C681C4D6A3900728131 /* MaterialButton.swift */; };
+		0B401C6B1C4D6E5D00728131 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B401C6A1C4D6E5D00728131 /* MaterialTextField.swift */; };
+		0B401C701C4D755C00728131 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B401C6D1C4D755C00728131 /* Bolts.framework */; };
+		0B401C711C4D755C00728131 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B401C6E1C4D755C00728131 /* FBSDKCoreKit.framework */; };
+		0B401C721C4D755C00728131 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B401C6F1C4D755C00728131 /* FBSDKLoginKit.framework */; };
+		0B401C751C4D8CA600728131 /* DataServiceSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B401C741C4D8CA600728131 /* DataServiceSingleton.swift */; };
+		0B401C771C4DCBB700728131 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B401C761C4DCBB700728131 /* FeedVC.swift */; };
+		0B401C791C4DCC6900728131 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B401C781C4DCC6900728131 /* PostCell.swift */; };
+		0BE9CE5D1C52C25300AC9699 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9CE5C1C52C25300AC9699 /* Post.swift */; };
+		2EB47BDA1B72D1A082DF6D54 /* Pods_picshare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D03A69218BB3B77A8498E7B /* Pods_picshare.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +38,24 @@
 		0B401C4C1C4C2BE900728131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B401C4F1C4C2BE900728131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B401C511C4C2BE900728131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B401C5B1C4D60E000728131 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		0B401C5C1C4D60E000728131 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0B401C5D1C4D60E000728131 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		0B401C5E1C4D60E000728131 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		0B401C631C4D642700728131 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		0B401C661C4D649400728131 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0B401C681C4D6A3900728131 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		0B401C6A1C4D6E5D00728131 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		0B401C6D1C4D755C00728131 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		0B401C6E1C4D755C00728131 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		0B401C6F1C4D755C00728131 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		0B401C741C4D8CA600728131 /* DataServiceSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServiceSingleton.swift; sourceTree = "<group>"; };
+		0B401C761C4DCBB700728131 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		0B401C781C4DCC6900728131 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		0BE9CE5C1C52C25300AC9699 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		224BB92292B3ECE21467896C /* Pods-picshare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picshare.release.xcconfig"; path = "Pods/Target Support Files/Pods-picshare/Pods-picshare.release.xcconfig"; sourceTree = "<group>"; };
+		6A69A912F697D341B90DEE48 /* Pods-picshare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picshare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-picshare/Pods-picshare.debug.xcconfig"; sourceTree = "<group>"; };
+		6D03A69218BB3B77A8498E7B /* Pods_picshare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_picshare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB47BDA1B72D1A082DF6D54 /* Pods_picshare.framework in Frameworks */,
+				0B401C711C4D755C00728131 /* FBSDKCoreKit.framework in Frameworks */,
+				0B401C721C4D755C00728131 /* FBSDKLoginKit.framework in Frameworks */,
+				0B401C701C4D755C00728131 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03E57CED76DF737A8E505739 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A69A912F697D341B90DEE48 /* Pods-picshare.debug.xcconfig */,
+				224BB92292B3ECE21467896C /* Pods-picshare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		0B401C391C4C2BE900728131 = {
 			isa = PBXGroup;
 			children = (
 				0B401C441C4C2BE900728131 /* picshare */,
 				0B401C431C4C2BE900728131 /* Products */,
+				03E57CED76DF737A8E505739 /* Pods */,
+				645B51B7CCA37B92D3631430 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +103,93 @@
 		0B401C441C4C2BE900728131 /* picshare */ = {
 			isa = PBXGroup;
 			children = (
+				0B401C731C4D8C8F00728131 /* Services */,
+				0B401C6C1C4D754E00728131 /* Frameworks */,
+				0B401C651C4D648400728131 /* Util */,
+				0B401C5A1C4D60BA00728131 /* Resources */,
+				0B401C591C4D60A200728131 /* Model */,
+				0B401C581C4D609700728131 /* View */,
+				0B401C571C4D607F00728131 /* Controller */,
 				0B401C451C4C2BE900728131 /* AppDelegate.swift */,
-				0B401C471C4C2BE900728131 /* ViewController.swift */,
 				0B401C491C4C2BE900728131 /* Main.storyboard */,
 				0B401C4C1C4C2BE900728131 /* Assets.xcassets */,
 				0B401C4E1C4C2BE900728131 /* LaunchScreen.storyboard */,
 				0B401C511C4C2BE900728131 /* Info.plist */,
 			);
 			path = picshare;
+			sourceTree = "<group>";
+		};
+		0B401C571C4D607F00728131 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0B401C471C4C2BE900728131 /* ViewController.swift */,
+				0B401C761C4DCBB700728131 /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0B401C581C4D609700728131 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B401C631C4D642700728131 /* MaterialView.swift */,
+				0B401C781C4DCC6900728131 /* PostCell.swift */,
+				0B401C681C4D6A3900728131 /* MaterialButton.swift */,
+				0B401C6A1C4D6E5D00728131 /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0B401C591C4D60A200728131 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0BE9CE5C1C52C25300AC9699 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0B401C5A1C4D60BA00728131 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B401C5B1C4D60E000728131 /* NotoSans-Bold.ttf */,
+				0B401C5C1C4D60E000728131 /* NotoSans-BoldItalic.ttf */,
+				0B401C5D1C4D60E000728131 /* NotoSans-Italic.ttf */,
+				0B401C5E1C4D60E000728131 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0B401C651C4D648400728131 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0B401C661C4D649400728131 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		0B401C6C1C4D754E00728131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B401C6D1C4D755C00728131 /* Bolts.framework */,
+				0B401C6E1C4D755C00728131 /* FBSDKCoreKit.framework */,
+				0B401C6F1C4D755C00728131 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B401C731C4D8C8F00728131 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0B401C741C4D8CA600728131 /* DataServiceSingleton.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		645B51B7CCA37B92D3631430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D03A69218BB3B77A8498E7B /* Pods_picshare.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B401C541C4C2BE900728131 /* Build configuration list for PBXNativeTarget "picshare" */;
 			buildPhases = (
+				3E7E377FA2D0126796373511 /* Check Pods Manifest.lock */,
 				0B401C3E1C4C2BE900728131 /* Sources */,
 				0B401C3F1C4C2BE900728131 /* Frameworks */,
 				0B401C401C4C2BE900728131 /* Resources */,
+				BA9A65558B8880F55D752474 /* Embed Pods Frameworks */,
+				D1CE2D1303C08477E1A0B6EE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +227,7 @@
 				TargetAttributes = {
 					0B401C411C4C2BE900728131 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ARWUKGJDKV;
 					};
 				};
 			};
@@ -122,21 +254,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B401C5F1C4D60E000728131 /* NotoSans-Bold.ttf in Resources */,
 				0B401C501C4C2BE900728131 /* LaunchScreen.storyboard in Resources */,
+				0B401C601C4D60E000728131 /* NotoSans-BoldItalic.ttf in Resources */,
+				0B401C611C4D60E000728131 /* NotoSans-Italic.ttf in Resources */,
 				0B401C4D1C4C2BE900728131 /* Assets.xcassets in Resources */,
 				0B401C4B1C4C2BE900728131 /* Main.storyboard in Resources */,
+				0B401C621C4D60E000728131 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E7E377FA2D0126796373511 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9A65558B8880F55D752474 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-picshare/Pods-picshare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1CE2D1303C08477E1A0B6EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-picshare/Pods-picshare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B401C3E1C4C2BE900728131 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B401C6B1C4D6E5D00728131 /* MaterialTextField.swift in Sources */,
+				0B401C641C4D642700728131 /* MaterialView.swift in Sources */,
 				0B401C481C4C2BE900728131 /* ViewController.swift in Sources */,
 				0B401C461C4C2BE900728131 /* AppDelegate.swift in Sources */,
+				0B401C771C4DCBB700728131 /* FeedVC.swift in Sources */,
+				0B401C791C4DCC6900728131 /* PostCell.swift in Sources */,
+				0B401C671C4D649400728131 /* Constants.swift in Sources */,
+				0B401C751C4D8CA600728131 /* DataServiceSingleton.swift in Sources */,
+				0B401C691C4D6A3900728131 /* MaterialButton.swift in Sources */,
+				0BE9CE5D1C52C25300AC9699 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,9 +437,17 @@
 		};
 		0B401C551C4C2BE900728131 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A69A912F697D341B90DEE48 /* Pods-picshare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/picshare",
+				);
 				INFOPLIST_FILE = picshare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.helloTouch.picshare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -256,9 +456,17 @@
 		};
 		0B401C561C4C2BE900728131 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 224BB92292B3ECE21467896C /* Pods-picshare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/picshare",
+				);
 				INFOPLIST_FILE = picshare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.helloTouch.picshare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +492,7 @@
 				0B401C561C4C2BE900728131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
